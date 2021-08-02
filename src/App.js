@@ -3,7 +3,6 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 
-
 function App() {
   const [categories] = useState([
     {
@@ -25,14 +24,11 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
-        <div>
         <Gallery currentCategory={currentCategory}></Gallery>
-          <About></About>
-        </div>
+        <About></About>
       </main>
     </div>
   );
 }
 
 export default App;
-
