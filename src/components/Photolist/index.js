@@ -13,4 +13,4 @@ function Photolist() {
     )
 }
 
-export default Photolist;
+export default Photolist
